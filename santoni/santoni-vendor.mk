@@ -2199,3 +2199,10 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qcrilhook \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
+
+$(call inherit-product, vendor/qcom/common/av/av-vendor.mk)
+$(call inherit-product, vendor/qcom/common/bt/bt-vendor.mk)
+$(call inherit-product, vendor/qcom/common/perf/perf-vendor.mk)
+#$(call inherit-product, vendor/qcom/common/telephony/telephony-vendor.mk)
+#$(call inherit-product, vendor/qcom/common/wfd/wfd-vendor.mk)
+
